@@ -1,0 +1,23 @@
+7.1)
+i) mia, jody 
+ii) jody, mia, jody, yolanda
+
+7.2) 
+atom(vincent) = true 
+atom(my test) = syntax error
+atom(TEST) = false
+atom(_TEST) = false
+atom(tEST) = true
+atom('TEST') = true
+atom('my test') = true
+atom(test123) = true
+atom(Test123) = false
+
+7.3) 
+wizard(ron). = true
+witch(ron). = false
+wizard(hermione). = false
+witch(hermione). = true
+wizard(harry). = true
+wizard(Y). = ron, harry
+witch(Y). = hermione
